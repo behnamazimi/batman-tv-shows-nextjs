@@ -1,0 +1,31 @@
+.page.single-show {
+
+  .show-article {
+    margin-top: 1rem;
+
+    header {
+      display: flex;
+      align-items: center;
+
+      .show-name {
+        padding: 0 1rem;
+        @include font-size(32px);
+      }
+
+      .more-link {
+        @include font-size(10px);
+        font-weight: bold;
+      }
+    }
+
+    main {
+      padding: 1rem;
+      @extend %clearfix;
+
+      figure.main-image {
+        float: left;
+        margin-right: 1rem;
+      }
+    }
+  }
+}

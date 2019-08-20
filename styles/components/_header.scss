@@ -1,0 +1,41 @@
+.main-header {
+  background: #efefef;
+  padding: .5rem 1rem;
+
+  &-inner {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+
+    .brand-name {
+      font-weight: bold;
+      margin-right: 5px;
+
+      &:hover {
+        text-transform: none;
+      }
+    }
+  }
+
+  nav {
+    padding: 0 1rem;
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: flex-start;
+      align-content: center;
+
+      li {
+        margin-right: .5rem;
+        padding: 0 .5rem;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
