@@ -1,3 +1,14 @@
+/* Main Styles */
+.page {
+  min-height: calc(100vh - 96px);
+
+  .page-title {
+    margin: 1rem 0;
+  }
+}
+
+//
 /* import all pages styles*/
 @import "home";
 @import "single_show";
+

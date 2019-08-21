@@ -8,7 +8,7 @@ function Footer({className, ...rest}) {
 
     return (
         <footer className={classes} {...rest}>
-            <p>Rights reserved. | Code by ♥</p>
+            <p>Rights reserved. </p>
         </footer>
     )
 }

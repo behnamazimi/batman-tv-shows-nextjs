@@ -9,7 +9,7 @@ function Header({className, ...rest}) {
 
     return (
         <header className={classes} {...rest}>
-            <div className="main-header-inner">
+            <div className="container main-header-inner">
                 <Link href={"/"}>
                     <a className={"brand-name"}>Batman TV Shows</a>
                 </Link>

@@ -1,0 +1,53 @@
+.btv.rating {
+  text-align: left;
+  display: inline-block;
+
+  & > span {
+    display: inline-block;
+    transition: .2s;
+
+  }
+
+  &:not(.read-only) > span {
+    cursor: pointer;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+
+  .icon {
+    color: #ED8A19;
+    @include font-size(24px)
+  }
+
+  .reg-icon {
+    color: #ED8A19;
+    @include font-size(24px)
+  }
+
+
+  &.small {
+
+    .icon {
+      @include font-size(20px)
+    }
+
+    .reg-icon {
+      @include font-size(20px)
+    }
+
+  }
+
+  &.large {
+
+    .icon {
+      @include font-size(28px)
+    }
+
+    .reg-icon {
+      @include font-size(28px)
+    }
+
+  }
+}

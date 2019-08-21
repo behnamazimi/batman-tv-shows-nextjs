@@ -13,7 +13,7 @@ import "../../styles/index.scss"
  */
 function Page({title, description, className, children, ...rest}) {
 
-    const classes = cx("page", className)
+    const classes = cx("page", "container", className)
 
     return (
         <React.Fragment>
